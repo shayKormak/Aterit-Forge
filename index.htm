@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aterit Forge – My Games</title>
+
+<style>
+
+/* ====== GLOBAL ====== */
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@400;600;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: "Signika", sans-serif;
+    background: url('https://i.pinimg.com/originals/fb/11/d1/fb11d1533d18f693702cc3df7d9318e3.jpg') center/cover no-repeat fixed;
+    color: white;
+}
+
+/* ====== HEADER ====== */
+header {
+    width: 100%;
+    padding: 20px 40px;
+    background: linear-gradient(90deg, #8c007c, #d73c54);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: 700;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+nav a {
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    opacity: 0.8;
+}
+
+/* ====== PAGE TITLE ====== */
+h1 {
+    font-size: 48px;
+    margin-left: 40px;
+    margin-top: 40px;
+    text-shadow: 0 0 6px black;
+}
+
+/* ====== SECTION TITLES ====== */
+.section-title {
+    font-size: 32px;
+    margin-left: 40px;
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+/* ====== NEW GAME BUTTON ====== */
+.new-game-btn {
+    position: absolute;
+    top: 140px;
+    right: 40px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 3px solid #ff4e60;
+    padding: 10px 25px;
+    font-size: 28px;
+    font-weight: 700;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.new-game-btn:hover {
+    background: rgba(255, 80, 80, 0.25);
+}
+
+/* ====== GAME CARD ====== */
+.game-card {
+    margin: 15px 40px;
+    border: 3px solid white;
+    padding: 12px 20px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.55);
+    backdrop-filter: blur(4px);
+}
+
+.game-title {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.game-author {
+    font-size: 18px;
+    margin-top: -5px;
+    opacity: 0.7;
+}
+
+.game-date {
+    font-size: 22px;
+    font-weight: 700;
+    padding-left: 20px;
+}
+
+/* ====== FOOTER ====== */
+footer {
+    text-align: center;
+    margin-top: 80px;
+    font-size: 14px;
+    opacity: 0.9;
+    padding-bottom: 40px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">
+        <span>⚔️</span> Aterit Forge
+    </div>
+    <nav>
+        <a href="#">My Worlds</a>
+        <a href="#">My Characters</a>
+        <a href="#">Tools</a>
+        <a href="#">Profile</a>
+    </nav>
+</header>
+
+<h1>My Games</h1>
+
+<button class="new-game-btn">New Game</button>
+
+<div class="section-title">Playing</div>
+
+<div class="game-card">
+    <div>
+        <div class="game-title">West Marhes</div>
+        <div class="game-author">Timur, Roma</div>
+    </div>
+    <div class="game-date">8 Oct 2025</div>
+</div>
+
+<div class="game-card">
+    <div>
+        <div class="game-title">The New Origin</div>
+        <div class="game-author">Danil</div>
+    </div>
+    <div class="game-date">No Date</div>
+</div>
+
+<div class="section-title">Master</div>
+
+<div class="game-card">
+    <div>
+        <div class="game-title">West Marhes</div>
+        <div class="game-author">Timur, Roma</div>
+    </div>
+    <div class="game-date">8 Oct 2025</div>
+</div>
+
+<footer>
+    © 2025 Timur Francuzov and Artem Raskin. All rights reserved.<br>
+    Aterit Forge is not affiliated with Wizards of the Coast.<br>
+    Dungeons & Dragons, D&D, and their logos are trademarks of Wizards of the Coast LLC.
+</footer>
+
+</body>
+</html>
